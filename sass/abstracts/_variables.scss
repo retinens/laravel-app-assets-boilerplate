@@ -11,3 +11,20 @@ $font-size-sm: ($font-size-base * .875);
 $font-size-xs: ($font-size-base * .75);
 
 @import "spacers";
+
+$custom-colors: (
+    "dark":#43495A,
+    "light": #ffffff,
+);
+$theme-colors: $custom-colors;
+
+$headings-margin-bottom: 0;
+$link-hover-decoration: none;
+$link-hover-color: none;
+$link-decoration: none;
+
+$dropdown-link-hover-bg: white;
+$dropdown-link-focus-bg: white;
+
+$dropdown-link-hover-color: $primary;
+$dropdown-link-focus-color: $primary;
