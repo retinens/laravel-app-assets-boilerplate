@@ -12,9 +12,23 @@ $font-size-xs: ($font-size-base * .75);
 
 @import "spacers";
 
+$primary: #1100ff;
+$secondary: #ff0000;
+$green: #5FB352;
+$red: #dc3545 !default;
+$orange: #EA8E0A;
+$dark: #303030;
+$light: #ffffff;
+
 $custom-colors: (
-    "dark":#43495A,
-    "light": #ffffff,
+    "primary": $primary,
+    "secondary": $secondary,
+    "dark":$dark,
+    "success": $green,
+    "info": $primary,
+    "warning": $orange,
+    "danger": $red,
+    "light": $light,
 );
 $theme-colors: $custom-colors;
 
@@ -30,3 +44,4 @@ $dropdown-link-hover-color: $primary;
 $dropdown-link-focus-color: $primary;
 
 $font-family-base: 'Open Sans', sans-serif;
+$link-color: $primary;
