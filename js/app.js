@@ -2,9 +2,10 @@ require('./bootstrap');
 
 const WOW = require('wowjs');
 window.wow = new WOW.WOW({
-    offset: 200,          // default
+    offset: 200,
 });
 window.wow.init();
 
-const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+require("lozad");
+const observer = lozad();
 observer.observe();
