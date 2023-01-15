@@ -2,24 +2,17 @@
 // 1. Configuration and helpers
 
 @import 'abstracts/variables';
-@import 'abstracts/functions';
 @import 'abstracts/mixins';
 
 // 2. Vendors
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
 // 3. Base stuff
 @import 'base/base';
 @import 'base/text';
 @import 'base/fonts';
-@import 'base/typography';
 @import 'base/image-backgrounds';
-@import 'base/helpers';
 @import 'base/auth-pages';
-
-// 4. Layout-related sections
-@import 'layout/header';
-@import 'layout/footer';
 
 // 5. Components
 // 6. Page-specific styles
