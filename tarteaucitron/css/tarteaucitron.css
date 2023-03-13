@@ -305,10 +305,14 @@ div#tarteaucitronServices {
 #tarteaucitronRoot * {
     box-sizing: initial;
     color: #333;
-    font-family: 'Ryker',sans-serif !important;
+    font-family: var(--bs-body-font-family);
     font-size: 14px;
     line-height: normal;
     vertical-align: initial;
+}
+
+#tarteaucitronDisclaimerAlert {
+    font-family: var(--bs-body-font-family);
 }
 
 #tarteaucitronRoot .tarteaucitronH1 {
@@ -357,7 +361,6 @@ div#tarteaucitronServices {
 
 #tarteaucitron .tarteaucitronBorder {
     background: #fff;
-    border: 2px solid var(--bs-primary);
     border-top: 0;
     height: auto;
     overflow: auto;
@@ -373,9 +376,12 @@ div#tarteaucitronServices {
     text-decoration: none;
     padding: 4px 0;
     position: absolute;
-    right: 0;
+    right: 10px;
+    top: 30px;
     text-align: center;
     width: 70px;
+    z-index: 10;
+    border: solid 0.5px white;
 }
 
 #tarteaucitron #tarteaucitronDisclaimer {
