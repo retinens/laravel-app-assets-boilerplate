@@ -168,8 +168,8 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitronServices::-webkit-scrollbar-thumb {
-  background-color: #ddd;
-  outline: 0px solid slategrey;
+    background-color: #ddd;
+    outline: 0px solid slategrey;
 }
 
 div#tarteaucitronServices {
@@ -224,9 +224,9 @@ div#tarteaucitronServices {
         text-align: center !important;
     }
 
-        #tarteaucitron #tarteaucitronServices .tarteaucitronLine .tarteaucitronAsk button {
-            margin-bottom: 5px;
-        }
+    #tarteaucitron #tarteaucitronServices .tarteaucitronLine .tarteaucitronAsk button {
+        margin-bottom: 5px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -283,7 +283,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron .tarteaucitronH1, #tarteaucitron .tarteaucitronH2, #tarteaucitron .tarteaucitronH3, #tarteaucitron .tarteaucitronH4, #tarteaucitron .tarteaucitronH5, #tarteaucitron .tarteaucitronH6 {
-  display: block;
+    display: block;
 }
 
 .cookie-list {
@@ -613,7 +613,7 @@ span#tarteaucitronDisclaimerAlert {
 #tarteaucitronAlertBig #tarteaucitronPrivacyUrlDialog,
 #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert,
 #tarteaucitronAlertBig #tarteaucitronDisclaimerAlert strong {
-    font: 15px verdana;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -914,12 +914,12 @@ div.amazon_product {
 .tarteaucitronIsAllowed .tarteaucitronDeny {
     opacity: 0.8!important;
 }.tarteaucitronIsDenied .tarteaucitronAllow {
-    opacity: 0.8!important;
-}.tarteaucitronIsAllowed .tarteaucitronAllow {
-    opacity: 1!important;
-}.tarteaucitronIsDenied .tarteaucitronDeny {
-    opacity: 1!important;
-}
+     opacity: 0.8!important;
+ }.tarteaucitronIsAllowed .tarteaucitronAllow {
+      opacity: 1!important;
+  }.tarteaucitronIsDenied .tarteaucitronDeny {
+       opacity: 1!important;
+   }
 .tarteaucitronLine .tarteaucitronAllow, .tarteaucitronLine .tarteaucitronDeny {
     opacity: 0.8;
 }
